@@ -47,3 +47,16 @@
 #seccion-3 > span {
 	background-color: #9999ff;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#seccion-1, #seccion-2 {
+		width: 44%;
+		margin-left: 3%;
+		margin-right 3%;
+	}
+	#seccion-3 {
+		width: 93%;
+		margin-left: 3%;
+		margin-right 4%;	
+	}
+}
